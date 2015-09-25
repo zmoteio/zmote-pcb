@@ -1,0 +1,212 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:ESP8266
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CONN_01X05 P6
+U 1 1 55961161
+P 2150 2250
+F 0 "P6" H 2150 2550 50  0000 C CNN
+F 1 "CONN_01X05" V 2250 2250 50  0000 C CNN
+F 2 "" H 2150 2250 60  0000 C CNN
+F 3 "" H 2150 2250 60  0000 C CNN
+	1    2150 2250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 7805 U2
+U 1 1 559611BE
+P 3000 2100
+F 0 "U2" H 3150 1904 60  0000 C CNN
+F 1 "TL1838" H 3000 2300 60  0000 C CNN
+F 2 "" H 3000 2100 60  0000 C CNN
+F 3 "" H 3000 2100 60  0000 C CNN
+	1    3000 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 2050 2500 2050
+Wire Wire Line
+	2500 2050 2600 2050
+Wire Wire Line
+	2350 2150 2600 2150
+Wire Wire Line
+	2600 2150 2600 2350
+Wire Wire Line
+	2600 2350 3000 2350
+Wire Wire Line
+	2350 2450 3400 2450
+Wire Wire Line
+	3400 2450 3400 2050
+Wire Wire Line
+	2500 2050 2500 1600
+Wire Wire Line
+	2500 1600 3600 1600
+Wire Wire Line
+	3600 1600 3950 1600
+Connection ~ 2500 2050
+$Comp
+L LED D2
+U 1 1 559616A0
+P 4150 2000
+F 0 "D2" H 4150 2100 50  0000 C CNN
+F 1 "LED" H 4150 1900 50  0000 C CNN
+F 2 "" H 4150 2000 60  0000 C CNN
+F 3 "" H 4150 2000 60  0000 C CNN
+	1    4150 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D3
+U 1 1 559616F3
+P 4800 2000
+F 0 "D3" H 4800 2100 50  0000 C CNN
+F 1 "LED" H 4800 1900 50  0000 C CNN
+F 2 "" H 4800 2000 60  0000 C CNN
+F 3 "" H 4800 2000 60  0000 C CNN
+	1    4800 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D4
+U 1 1 55961725
+P 6000 2000
+F 0 "D4" H 6000 2100 50  0000 C CNN
+F 1 "LED" H 6000 1900 50  0000 C CNN
+F 2 "" H 6000 2000 60  0000 C CNN
+F 3 "" H 6000 2000 60  0000 C CNN
+	1    6000 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D5
+U 1 1 559617AB
+P 4150 1600
+F 0 "D5" H 4150 1700 50  0000 C CNN
+F 1 "LED" H 4150 1500 50  0000 C CNN
+F 2 "" H 4150 1600 60  0000 C CNN
+F 3 "" H 4150 1600 60  0000 C CNN
+	1    4150 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D6
+U 1 1 559617B1
+P 4800 1600
+F 0 "D6" H 4800 1700 50  0000 C CNN
+F 1 "LED" H 4800 1500 50  0000 C CNN
+F 2 "" H 4800 1600 60  0000 C CNN
+F 3 "" H 4800 1600 60  0000 C CNN
+	1    4800 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 1600 4600 1600
+Connection ~ 3600 1600
+Wire Wire Line
+	6450 1600 6200 1600
+Wire Wire Line
+	6450 2700 2500 2700
+Wire Wire Line
+	2500 2700 2500 2250
+Wire Wire Line
+	2500 2250 2350 2250
+Text Notes 3800 2650 0    79   ~ 0
+Circular Dome Assembly
+$Comp
+L R_Small R5
+U 1 1 55C5FD3D
+P 5300 1600
+F 0 "R5" H 5330 1620 50  0000 L CNN
+F 1 "4.7" H 5330 1560 50  0000 L CNN
+F 2 "" H 5300 1600 60  0000 C CNN
+F 3 "" H 5300 1600 60  0000 C CNN
+	1    5300 1600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4350 2000 4600 2000
+$Comp
+L R_Small R6
+U 1 1 55C6032D
+P 5300 2000
+F 0 "R6" H 5330 2020 50  0000 L CNN
+F 1 "4.7" H 5330 1960 50  0000 L CNN
+F 2 "" H 5300 2000 60  0000 C CNN
+F 3 "" H 5300 2000 60  0000 C CNN
+	1    5300 2000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5000 2000 5200 2000
+Wire Wire Line
+	5400 2000 5800 2000
+$Comp
+L LED D7
+U 1 1 559617B7
+P 6000 1600
+F 0 "D7" H 6000 1700 50  0000 C CNN
+F 1 "LED" H 6000 1500 50  0000 C CNN
+F 2 "" H 6000 1600 60  0000 C CNN
+F 3 "" H 6000 1600 60  0000 C CNN
+	1    6000 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 1600 5800 1600
+Wire Wire Line
+	5000 1600 5200 1600
+Wire Wire Line
+	3600 1600 3600 2000
+Wire Wire Line
+	3600 2000 3950 2000
+Wire Wire Line
+	6450 1600 6450 2000
+Wire Wire Line
+	6450 2000 6450 2700
+Wire Wire Line
+	6200 2000 6450 2000
+Connection ~ 6450 2000
+$EndSCHEMATC

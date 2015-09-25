@@ -1,0 +1,157 @@
+Cmp-Mod V01 Created by Cvpcb (after 2015-mar-04 BZR unknown)-product   date = 06/30/15 10:19:10
+
+BeginCmp
+TimeStamp = /558A39EE;
+Reference = C1;
+ValeurCmp = 100nf;
+IdModule  = Capacitors_ThroughHole:C_Disc_D3_P2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /5589C932;
+Reference = C2;
+ValeurCmp = 470pf;
+IdModule  = Capacitors_ThroughHole:C_Disc_D3_P2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /558A38BC;
+Reference = C3;
+ValeurCmp = 470pf;
+IdModule  = Capacitors_ThroughHole:C_Disc_D3_P2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /55891CAF;
+Reference = C4;
+ValeurCmp = 100uf;
+IdModule  = Capacitors_ThroughHole:C_Radial_D5_L11_P2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /5589CF68;
+Reference = C5;
+ValeurCmp = 4.7uf;
+IdModule  = Capacitors_ThroughHole:C_Radial_D5_L11_P2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /558A10F7;
+Reference = CON1;
+ValeurCmp = USB-MICRO-B;
+IdModule  = Connect:USB_Micro-B;
+EndCmp
+
+BeginCmp
+TimeStamp = /558EB472;
+Reference = CON2;
+ValeurCmp = USB-MICRO-B;
+IdModule  = Connect:USB_Micro-B;
+EndCmp
+
+BeginCmp
+TimeStamp = /558BB1F9;
+Reference = P1;
+ValeurCmp = CONN_01X01;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x01;
+EndCmp
+
+BeginCmp
+TimeStamp = /558E072F;
+Reference = P2;
+ValeurCmp = CONN_01X05;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x05;
+EndCmp
+
+BeginCmp
+TimeStamp = /558EAD90;
+Reference = P3;
+ValeurCmp = CONN_01X05;
+IdModule  = lib:Mounting5Holes_1mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /558C2A7E;
+Reference = P4;
+ValeurCmp = CONN_01X01;
+IdModule  = Wire_Pads:SolderWirePad_single_2mmDrill;
+EndCmp
+
+BeginCmp
+TimeStamp = /558C2FB5;
+Reference = P5;
+ValeurCmp = CONN_01X01;
+IdModule  = Wire_Pads:SolderWirePad_single_2mmDrill;
+EndCmp
+
+BeginCmp
+TimeStamp = /558B767F;
+Reference = Q2;
+ValeurCmp = BC547;
+IdModule  = Housings_TO-92:TO-92_Inline_Narrow_Oval;
+EndCmp
+
+BeginCmp
+TimeStamp = /558AB213;
+Reference = R1;
+ValeurCmp = 15;
+IdModule  = lib:Resistor_Horizontal_RM2.5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /5589C908;
+Reference = R2;
+ValeurCmp = 330;
+IdModule  = lib:Resistor_Horizontal_RM2.5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /5589F6DB;
+Reference = R3;
+ValeurCmp = 12k;
+IdModule  = lib:Resistor_Horizontal_RM2.5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /558E7796;
+Reference = R4;
+ValeurCmp = 12k;
+IdModule  = lib:Resistor_Horizontal_RM2.5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /55891CA6;
+Reference = R7;
+ValeurCmp = 1k;
+IdModule  = lib:Resistor_Horizontal_RM2.5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /55891CA5;
+Reference = R8;
+ValeurCmp = 1k;
+IdModule  = lib:Resistor_Horizontal_RM2.5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /558BA279;
+Reference = R10;
+ValeurCmp = 4.7k;
+IdModule  = lib:Resistor_Horizontal_RM2.5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /558A20D0;
+Reference = U1;
+ValeurCmp = LD1117S33CTR;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
+EndCmp
+
+BeginCmp
+TimeStamp = /55895B98;
+Reference = U3;
+ValeurCmp = ESP-01v090;
+IdModule  = ESP8266:ESP-01;
+EndCmp
+
+EndListe
