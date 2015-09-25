@@ -1,2 +1,2 @@
 # zmote-pcb
-schematics design and gerber files for the zmote widget
+schematics,design and gerber files for the zmote widget
