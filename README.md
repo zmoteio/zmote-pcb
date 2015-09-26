@@ -5,7 +5,7 @@ schematics,design and gerber files for the zmote widget
 
 [Gerbers](gerbers/)
 
-[zmote PCBs](http://dirtypcbs.com/view.php?share=9978&accesskey=257368fbcf180a8e00e58f2eab851304)
+[PCBs](http://dirtypcbs.com/view.php?share=9978&accesskey=257368fbcf180a8e00e58f2eab851304)
 
 # Setup for making changes to the PCB
 * Install ki-cad from http://kicad-pcb.org/download/
