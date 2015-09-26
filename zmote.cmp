@@ -67,7 +67,7 @@ BeginCmp
 TimeStamp = /558EAD90;
 Reference = P3;
 ValeurCmp = CONN_01X05;
-IdModule  = lib:Mounting5Holes_1mm;
+IdModule  = zmote-custom:Mounting5Holes_1mm;
 EndCmp
 
 BeginCmp
@@ -95,49 +95,49 @@ BeginCmp
 TimeStamp = /558AB213;
 Reference = R1;
 ValeurCmp = 15;
-IdModule  = lib:Resistor_Horizontal_RM2.5mm;
+IdModule  = zmote-custom:Resistor_Horizontal_RM2.5mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /5589C908;
 Reference = R2;
 ValeurCmp = 330;
-IdModule  = lib:Resistor_Horizontal_RM2.5mm;
+IdModule  = zmote-custom:Resistor_Horizontal_RM2.5mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /5589F6DB;
 Reference = R3;
 ValeurCmp = 12k;
-IdModule  = lib:Resistor_Horizontal_RM2.5mm;
+IdModule  = zmote-custom:Resistor_Horizontal_RM2.5mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /558E7796;
 Reference = R4;
 ValeurCmp = 12k;
-IdModule  = lib:Resistor_Horizontal_RM2.5mm;
+IdModule  = zmote-custom:Resistor_Horizontal_RM2.5mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /55891CA6;
 Reference = R7;
 ValeurCmp = 1k;
-IdModule  = lib:Resistor_Horizontal_RM2.5mm;
+IdModule  = zmote-custom:Resistor_Horizontal_RM2.5mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /55891CA5;
 Reference = R8;
 ValeurCmp = 1k;
-IdModule  = lib:Resistor_Horizontal_RM2.5mm;
+IdModule  = zmote-custom:Resistor_Horizontal_RM2.5mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /558BA279;
 Reference = R10;
 ValeurCmp = 4.7k;
-IdModule  = lib:Resistor_Horizontal_RM2.5mm;
+IdModule  = zmote-custom:Resistor_Horizontal_RM2.5mm;
 EndCmp
 
 BeginCmp

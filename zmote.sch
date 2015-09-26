@@ -50,7 +50,7 @@ U 1 1 55891CA5
 P 5100 2350
 F 0 "R8" V 5000 2350 50  0000 C CNN
 F 1 "1k" V 5100 2350 50  0000 C CNN
-F 2 "lib:Resistor_Horizontal_RM2.5mm" V 5030 2350 30  0001 C CNN
+F 2 "zmote-custom:Resistor_Horizontal_RM2.5mm" V 5030 2350 30  0001 C CNN
 F 3 "" H 5100 2350 30  0000 C CNN
 	1    5100 2350
 	-1   0    0    1   
@@ -61,7 +61,7 @@ U 1 1 55891CA6
 P 4850 2350
 F 0 "R7" V 4930 2350 50  0000 C CNN
 F 1 "220" V 4850 2350 50  0000 C CNN
-F 2 "lib:Resistor_Horizontal_RM2.5mm" V 4780 2350 30  0001 C CNN
+F 2 "zmote-custom:Resistor_Horizontal_RM2.5mm" V 4780 2350 30  0001 C CNN
 F 3 "" H 4850 2350 30  0000 C CNN
 	1    4850 2350
 	1    0    0    -1  
@@ -107,7 +107,7 @@ U 1 1 5589C908
 P 1950 3950
 F 0 "R2" V 2030 3950 50  0000 C CNN
 F 1 "0" V 1950 3950 50  0000 C CNN
-F 2 "lib:Resistor_Horizontal_RM2.5mm" V 1880 3950 30  0001 C CNN
+F 2 "zmote-custom:Resistor_Horizontal_RM2.5mm" V 1880 3950 30  0001 C CNN
 F 3 "" H 1950 3950 30  0000 C CNN
 	1    1950 3950
 	0    -1   -1   0   
@@ -140,7 +140,7 @@ U 1 1 5589F6DB
 P 1600 2550
 F 0 "R3" V 1680 2550 50  0000 C CNN
 F 1 "12k" V 1600 2550 50  0000 C CNN
-F 2 "lib:Resistor_Horizontal_RM2.5mm" V 1530 2550 30  0001 C CNN
+F 2 "zmote-custom:Resistor_Horizontal_RM2.5mm" V 1530 2550 30  0001 C CNN
 F 3 "" H 1600 2550 30  0000 C CNN
 	1    1600 2550
 	1    0    0    -1  
@@ -232,7 +232,7 @@ U 1 1 558BA279
 P 4350 4050
 F 0 "R10" H 4380 4070 50  0000 L CNN
 F 1 "680" H 4380 4010 50  0000 L CNN
-F 2 "lib:Resistor_Horizontal_RM2.5mm" H 4350 4050 60  0001 C CNN
+F 2 "zmote-custom:Resistor_Horizontal_RM2.5mm" H 4350 4050 60  0001 C CNN
 F 3 "" H 4350 4050 60  0000 C CNN
 	1    4350 4050
 	0    1    1    0   
@@ -256,7 +256,7 @@ U 1 1 558AB213
 P 3200 3850
 F 0 "R1" V 3280 3850 50  0000 C CNN
 F 1 "0" V 3200 3850 50  0000 C CNN
-F 2 "lib:Resistor_Horizontal_RM2.5mm" V 3130 3850 30  0001 C CNN
+F 2 "zmote-custom:Resistor_Horizontal_RM2.5mm" V 3130 3850 30  0001 C CNN
 F 3 "" H 3200 3850 30  0000 C CNN
 	1    3200 3850
 	0    1    1    0   
@@ -337,7 +337,7 @@ U 1 1 558E7796
 P 4650 2350
 F 0 "R4" H 4500 2350 50  0000 L CNN
 F 1 "12k" V 4650 2300 50  0000 L CNN
-F 2 "lib:Resistor_Horizontal_RM2.5mm" H 4650 2350 60  0001 C CNN
+F 2 "zmote-custom:Resistor_Horizontal_RM2.5mm" H 4650 2350 60  0001 C CNN
 F 3 "" H 4650 2350 60  0000 C CNN
 	1    4650 2350
 	1    0    0    -1  
@@ -348,7 +348,7 @@ U 1 1 558EAD90
 P 10550 2750
 F 0 "P3" H 10550 3050 50  0000 C CNN
 F 1 "CONN_01X05" V 10650 2750 50  0000 C CNN
-F 2 "lib:Mounting5Holes_1mm" H 10550 2750 60  0001 C CNN
+F 2 "zmote-custom:Mounting5Holes_1mm" H 10550 2750 60  0001 C CNN
 F 3 "" H 10550 2750 60  0000 C CNN
 	1    10550 2750
 	1    0    0    -1  
